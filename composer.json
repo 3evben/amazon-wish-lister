@@ -1,5 +1,5 @@
 {
-  "name": "appzap/amazon-wish-lister",
+  "name": "3evben/amazon-wish-lister",
   "repositories": [
     {
       "url": "https://github.com/electrolinux/phpquery",

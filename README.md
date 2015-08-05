@@ -25,11 +25,18 @@ The Scraper is tested with wish lists from amazon.com :us: and amazon.de :de:.
 
 I recommend to include it via composer. e.g.:
 
-    {
-      "require": {
-        "appzap/amazon-wish-lister": "dev-master",
-      }
-    }
+	{
+	    "repositories": [
+	        {
+	            "type": "vcs",
+	            "url": "https://github.com/3evben/amazon-wish-lister"
+	        }
+	    ],
+	    "require": {
+	        "3evben/amazon-wish-lister": "master"
+	    }
+	}
+
 
 The scraper itself requires phpQuery, which will be loaded automatically when using composer.
 
